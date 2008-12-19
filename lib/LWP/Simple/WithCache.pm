@@ -3,7 +3,7 @@ package LWP::Simple::WithCache;
 use strict;
 use LWP::Simple;
 use LWP::UserAgent::WithCache;
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 $LWP::Simple::ua = new LWP::UserAgent::WithCache;
 $LWP::Simple::ua->agent("LWP::Simple::WithCache/$VERSION");
